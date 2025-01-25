@@ -1,0 +1,11 @@
+// tsconfig.json
+{
+  "extends": "./node_modules/react-scripts/tsconfig.json",
+  "compilerOptions": {
+    // Optionally override or add options here
+    "strict": true, // for stricter type-checking
+    "baseUrl": "src",
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
